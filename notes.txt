@@ -1,0 +1,28 @@
+to-do:
+add ranks: working on;
+animate and create aura: not done;
+aura and effect shop: not done;
+add custom color effects (example color1 and color2 combo): not done;
+add fun emojis and animals as characters: working on;                                  =                         [idea by yazan ]
+add <select> functionality (like making a custom select): working on;
+hover on person cursor: soon done; {only need to create a cursor img to be done}
+add save decimal settings: not done;
+
+
+if anyone want to rent css code: 
+    I give you temporary permission
+    to use the CSS code from my project.
+    This permission can be withdrawn at any time.
+    If I withdraw permission, you 
+    must stop using the CSS and delete all copies. 
+    You are not permitted to redistribute or 
+    share it with anyone else.
+
+
+
+
+version numbers logic:
+1.2.3
+    the 1 represents mayor updates
+    the 2 represents minor updates
+    the 3 represents bugfixes or mini updates
