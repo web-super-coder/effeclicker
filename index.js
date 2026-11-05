@@ -339,7 +339,7 @@ function getAvatarPath(color, type) {
     const requestedColor = (color || "red").toLowerCase();
     const safeColor = shirtColors.includes(requestedColor) ? requestedColor : "red";
     const safeType = type === "cat" ? "cat" : "character";
-    const fileColor = safeType === "cat" && safeColor !== "black"
+    const fileColor = safeType === "cat" && safeColor !== ""red
         ? safeColor
         : safeColor.charAt(0).toUpperCase() + safeColor.slice(1);
     return `Avatar/${safeType}/${fileColor}Sh.gif`;
