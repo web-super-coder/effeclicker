@@ -65,19 +65,19 @@ function addClicks(amount) {
       addClicks(amount)
     });
     box.addEventListener("click", function () {
-      box.classList.remove("shk-11-active");
+      box.classList.remove("shake");
       void box.offsetWidth;
-      box.classList.add("shk-11-active");
+      box.classList.add("shake");
 });
     document.addEventListener("keyup", function (event) {
       if(event.key === " "){
-      box.classList.remove("shk-11-active");
+      box.classList.remove("shake");
       void box.offsetWidth;
-      box.classList.add("shk-11-active");
+      box.classList.add("shake");
       }
 });
     box.addEventListener("animationend", function () {
-      box.classList.remove("shk-11-active");
+      box.classList.remove("shake");
 });
     /*upgrade shop*/
 /* upgrade shop */
